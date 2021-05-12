@@ -1,0 +1,112 @@
+a {
+  color: #7F5A83;
+}
+
+a:hover {
+  color: #A188A6;
+}
+
+body {
+  background-color: #243344;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  color: rgb(50,50,50);
+}
+
+h1 {
+  color: #243344;
+  font-size: ;
+}
+
+h2 {
+  color: #243344;
+  font-size: 25px;
+}
+
+img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.card {
+  background: #FFFFFF;
+  color: #243344;
+  border: 4px;
+  border-radius: 10px;
+  box-shadow: 4px, 4px, 5px, rgba(0,0,0,0.2);
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.container {
+  margin: 40px auto;
+  width: 700px;
+}
+
+.container p {
+  margin: 30px;
+}
+
+.container img {
+  margin: 10px;
+}
+
+.icon {
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.myButton {
+  box-shadow: 3px 4px 0px 0px #1d2a38;
+  background:linear-gradient(to bottom, #243344 5%, #537294 100%);
+  background-color:#243344;
+  border-radius:18px;
+  border:1px solid #243344;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:7px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #192430;
+  margin-bottom: 10px;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #537294 5%, #243344 100%);
+  background-color:#537294;
+  color:#ffffff;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
